@@ -15,6 +15,6 @@ The point is to avoid AI-demo fog. Each use case should make the business proble
 
 ## Use cases
 
-- [Compliance Command Center](use-cases/compliance-command-center.md)
-- [HRBP Weekly Decision Brief](use-cases/hrbp-weekly-decision-brief.md)
-- [Policy Assistant with Citations](use-cases/policy-assistant-with-citations.md)
+- [Compliance Command Center](compliance-command-center.md)
+- [HRBP Weekly Decision Brief](hrbp-weekly-decision-brief.md)
+- [Policy Assistant with Citations](policy-assistant-with-citations.md)
