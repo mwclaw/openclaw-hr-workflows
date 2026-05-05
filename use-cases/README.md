@@ -13,8 +13,8 @@ These use cases are written in a plain-English operating format borrowed from le
 
 The point is to avoid AI-demo fog. Each use case should make the business problem, workflow, controls, and demo path obvious.
 
-## Current use cases
+## Use cases
 
-- [Compliance Command Center](compliance-command-center.md)
-- [HRBP Weekly Decision Brief](hrbp-weekly-decision-brief.md)
-- [Policy Assistant with Citations](policy-assistant-with-citations.md)
+- [Compliance Command Center](use-cases/compliance-command-center.md)
+- [HRBP Weekly Decision Brief](use-cases/hrbp-weekly-decision-brief.md)
+- [Policy Assistant with Citations](use-cases/policy-assistant-with-citations.md)
