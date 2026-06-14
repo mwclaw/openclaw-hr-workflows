@@ -29,6 +29,37 @@ The Compliance Command Center:
 - escalates high-risk items for human review
 - stores sources, summaries, decisions, and timestamps for auditability
 
+## Suggested workflow chain
+
+A useful compliance workflow should connect the signal to the implementation work instead of leaving each step in a separate dashboard.
+
+```text
+source change
+→ scoped relevance check
+→ weekly scan item
+→ implementation tracker
+→ handbook or policy redline
+→ draft language for review
+→ HR/legal approval
+→ completion evidence
+```
+
+The key design choice is that the same source trail, jurisdiction scope, owner, and human-review boundary should travel through the workflow.
+
+## Jurisdiction source packs
+
+For multi-location employers, source monitoring should be organized by jurisdiction rather than by random newsletters or one-off searches.
+
+A source pack can define:
+
+- official government, regulator, agency, or commission sources
+- fallback search queries when official pages move or block automated fetches
+- topics to scan, such as pay, leave, safety, privacy, human rights, termination, or notices
+- last validation date
+- escalation rules for HR/legal review
+
+See [Jurisdiction Source Pack Pattern](../jurisdiction-source-pack-pattern.md) for a reusable pattern.
+
 ## Who uses it / who is affected?
 
 Primary users:

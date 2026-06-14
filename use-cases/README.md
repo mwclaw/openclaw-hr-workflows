@@ -18,3 +18,9 @@ The point is to avoid AI-demo fog. Each use case should make the business proble
 - [Compliance Command Center](compliance-command-center.md)
 - [HRBP Weekly Decision Brief](hrbp-weekly-decision-brief.md)
 - [Policy Assistant with Citations](policy-assistant-with-citations.md)
+
+## Related patterns
+
+- [Jurisdiction Source Pack Pattern](../jurisdiction-source-pack-pattern.md)
+- [Case File Workflow Pattern](../case-file-workflow-pattern.md)
+- [Human Approval Pattern](../human-approval-pattern.md)
