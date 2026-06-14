@@ -24,3 +24,9 @@ The point is to avoid AI-demo fog. Each use case should make the business proble
 - [Jurisdiction Source Pack Pattern](../jurisdiction-source-pack-pattern.md)
 - [Case File Workflow Pattern](../case-file-workflow-pattern.md)
 - [Human Approval Pattern](../human-approval-pattern.md)
+
+## Templates and examples
+
+- [Jurisdiction Source Pack Template](../templates/jurisdiction-source-pack-template.md)
+- [HR Case File Template](../templates/hr-case-file-template.md)
+- [Synthetic source-signal to case-file demo](../examples/source-signal-to-case-file-demo.md)
