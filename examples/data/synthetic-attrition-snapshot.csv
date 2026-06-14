@@ -1,0 +1,4 @@
+team,headcount,two_year_turnover_rate,company_median_two_year_turnover_rate,regretted_turnover_rate,internal_mobility_rate,exit_theme_1,exit_theme_2,exit_theme_3
+Team A,42,0.29,0.21,0.17,0.05,manager communication,growth path unclear,workload sustainability
+Team B,38,0.18,0.21,0.08,0.13,commute,role mismatch,compensation
+Team C,55,0.22,0.21,0.09,0.11,career change,manager communication,benefits
