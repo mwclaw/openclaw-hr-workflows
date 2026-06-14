@@ -45,11 +45,13 @@ A small public repo for operator-grade HR workflow patterns built around OpenCla
 Most AI-in-HR discussion stays too abstract. This repo is meant to document practical workflow patterns that can survive operational reality.
 
 ## Current contents
-- HR agent design principles
-- Employee handbook policy-check workflow
-- Human approval pattern
-- Policy Q&A guardrails
-- Handbook policy-check worked example
+- [HR agent design principles](hr-agent-design-principles.md)
+- [Employee handbook policy-check workflow](employee-handbook-policy-check-workflow.md)
+- [Human approval pattern](human-approval-pattern.md)
+- [Policy Q&A guardrails](policy-q-and-a-guardrails.md)
+- [Handbook policy-check worked example](handbook-policy-check-worked-example.md)
+- [Jurisdiction source pack pattern](jurisdiction-source-pack-pattern.md)
+- [Case file workflow pattern](case-file-workflow-pattern.md)
 
 ## Usage boundary
 These materials are best treated as early patterns and design notes. They should not be treated as a substitute for legal review, information security review, privacy review, or production implementation standards.
