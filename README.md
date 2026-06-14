@@ -60,6 +60,7 @@ Most AI-in-HR discussion stays too abstract. This repo is meant to document prac
 - [Jurisdiction source pack template](templates/jurisdiction-source-pack-template.md)
 - [HR case file template](templates/hr-case-file-template.md)
 - [Synthetic source-signal to case-file demo](examples/source-signal-to-case-file-demo.md)
+- [Synthetic attrition signal to HR judgment packet](examples/synthetic-attrition-judgment-packet.md)
 
 ## Usage boundary
 These materials are best treated as early patterns and design notes. They should not be treated as a substitute for legal review, information security review, privacy review, or production implementation standards.
