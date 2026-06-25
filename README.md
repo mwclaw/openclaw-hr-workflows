@@ -54,6 +54,7 @@ Most AI-in-HR discussion stays too abstract. This repo is meant to document prac
 - [Handbook policy-check worked example](handbook-policy-check-worked-example.md)
 - [Jurisdiction source pack pattern](jurisdiction-source-pack-pattern.md)
 - [Case file workflow pattern](case-file-workflow-pattern.md)
+- [Law change packet spine pattern](law-change-packet-spine-pattern.md)
 - [Publication boundary](PUBLICATION_BOUNDARY.md)
 
 ## Templates and examples
