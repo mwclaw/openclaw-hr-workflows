@@ -55,6 +55,7 @@ Most AI-in-HR discussion stays too abstract. This repo is meant to document prac
 - [Jurisdiction source pack pattern](jurisdiction-source-pack-pattern.md)
 - [Case file workflow pattern](case-file-workflow-pattern.md)
 - [Law change packet spine pattern](law-change-packet-spine-pattern.md)
+- [Multi-lens HR brief pattern](multi-lens-hr-brief-pattern.md)
 - [Publication boundary](PUBLICATION_BOUNDARY.md)
 
 ## Templates and examples
