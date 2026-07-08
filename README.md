@@ -8,8 +8,11 @@ This repository is informational only.
 It is not legal advice.
 It is not a production-ready compliance framework.
 It is not intended for autonomous employment decisions.
+It does not treat employee handbooks as executable law or certify that a policy is compliant.
 
 Any sensitive use case involving discipline, termination, pay, leave, accommodations, investigations, protected-class issues, or legal exposure should require human HR and, where appropriate, legal review.
+
+Handbook and policy workflows should preserve three separate layers: applicable law/regulation, written company policy, and actual operating practice. The useful work is spotting tension between those layers, not pretending AI can own the interpretation.
 
 ## What this is
 A small public repo for operator-grade HR workflow patterns built around OpenClaw.
@@ -18,10 +21,11 @@ A small public repo for operator-grade HR workflow patterns built around OpenCla
 - human approval patterns
 - policy Q&A guardrails
 - employee handbook policy-check workflows
-- jurisdiction source pack patterns
-- case file / workflow packet patterns
 - compliance and auditability patterns
+- policy interpretation support across law, written policy, and operating practice
 - privacy-aware workflow design
+- AI workload governance
+- human-judgment learning loops without silent automation
 
 ## Design principles
 - auditable
@@ -35,6 +39,7 @@ A small public repo for operator-grade HR workflow patterns built around OpenCla
 - private client work
 - legal advice
 - autonomous decision-making for sensitive HR situations
+- compliance certification or automated handbook redlining
 - a recommendation to use real employee PII in examples or demos
 
 ## Intended audience
@@ -47,21 +52,40 @@ A small public repo for operator-grade HR workflow patterns built around OpenCla
 Most AI-in-HR discussion stays too abstract. This repo is meant to document practical workflow patterns that can survive operational reality.
 
 ## Current contents
-- [HR agent design principles](hr-agent-design-principles.md)
-- [Employee handbook policy-check workflow](employee-handbook-policy-check-workflow.md)
-- [Human approval pattern](human-approval-pattern.md)
-- [Policy Q&A guardrails](policy-q-and-a-guardrails.md)
-- [Handbook policy-check worked example](handbook-policy-check-worked-example.md)
-- [Jurisdiction source pack pattern](jurisdiction-source-pack-pattern.md)
-- [Case file workflow pattern](case-file-workflow-pattern.md)
-- [Law change packet spine pattern](law-change-packet-spine-pattern.md)
-- [Publication boundary](PUBLICATION_BOUNDARY.md)
-
-## Templates and examples
-- [Jurisdiction source pack template](templates/jurisdiction-source-pack-template.md)
-- [HR case file template](templates/hr-case-file-template.md)
-- [Synthetic source-signal to case-file demo](examples/source-signal-to-case-file-demo.md)
-- [Synthetic attrition signal to HR judgment packet](examples/synthetic-attrition-judgment-packet.md)
+- HR agent design principles
+- Employee handbook policy-check workflow
+- Human approval pattern
+- Policy Q&A guardrails
+- Handbook policy-check worked example
+- Multi-lens HR brief pattern for pressure-testing claims, sources, and review boundaries
+- Runbooks for repeatable, human-reviewed OpenClaw-HR workflows
 
 ## Usage boundary
 These materials are best treated as early patterns and design notes. They should not be treated as a substitute for legal review, information security review, privacy review, or production implementation standards.
+
+## Flagship use cases
+
+The first three public-facing use cases now use a law-style explainer format: plain-English problem, affected users, real-world impact, data needed, human-review boundaries, and demo path.
+
+- [Compliance Command Center](use-cases/compliance-command-center.md)
+- [HRBP Weekly Decision Brief](use-cases/hrbp-weekly-decision-brief.md)
+- [HR Workflow Risk Tiers](use-cases/hr-workflow-risk-tiers.md)
+- [Policy Assistant with Citations](use-cases/policy-assistant-with-citations.md)
+- [AI Workload Governance Review](use-cases/ai-workload-governance-review.md)
+
+## Runbooks
+
+- [Weekly HR Artifact Graduation](runbooks/weekly-hr-artifact-graduation.md)
+
+## Reusable use-case page structure
+
+Use this structure for every new workflow:
+
+1. Summary
+2. What problem does this solve?
+3. What does this workflow do?
+4. Who uses it / who is affected?
+5. What is the real-world impact?
+6. What data does it need?
+7. What must stay human-reviewed?
+8. What would make it demo-ready?
