@@ -18,7 +18,7 @@ This past week repeated the same workflow:
 4. Convert the idea into a buyer-readable OpenClaw-HR pattern, use case, or checklist.
 5. Decide whether it belongs in the public workflow repo, private wiki, or personal coaching notes.
 
-The workflow is valuable because it turns Mike's real operator learning into reusable OpenClaw-HR proof points.
+The workflow is valuable because it turns practitioner-developed workflow learning into reusable OpenClaw-HR proof points.
 
 It should stay a runbook because the key decisions are editorial and risk-based:
 
@@ -36,8 +36,8 @@ Use only approved inputs:
 
 - public AI-in-HR research
 - public HR technology or compliance examples
-- sanitized Marcus Inc scenarios
-- Mike's non-confidential reflections
+- fully synthetic ExampleCo scenarios
+- original practitioner reflections
 - existing local OpenClaw-HR drafts
 
 Do not use:
