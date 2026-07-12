@@ -1,5 +1,9 @@
 # Jurisdiction Source Pack Pattern
 
+> **HRMC relationship:** Current compliance-first MVP design pattern.  
+> **Evidence level:** Prototype design; exact source configuration and production implementation remain private.  
+> **Coverage:** Examples are fictional. HRMC's current product scope is U.S.-first.
+
 ## Goal
 
 Define a repeatable way for an HR workflow to monitor jurisdiction-specific employment, privacy, safety, and human-rights sources without pretending the workflow can certify legal compliance.
@@ -18,78 +22,21 @@ HR compliance work often breaks down because source tracking is informal:
 
 A source pack makes the evidence layer explicit before any model summarizes, drafts, or routes work.
 
-## What a source pack should contain
+## Public pattern
 
-At minimum:
+A source pack should make four things reviewable: jurisdiction scope, authoritative source families, validation status, and the human-review boundary. It should also preserve enough provenance for an accountable reviewer to understand what was checked and what remains uncertain.
 
-| Field | Purpose |
-|---|---|
-| `jurisdiction` | Country, state, province, city, or regulator scope. |
-| `source_family` | Plain-English description of the official source family. |
-| `official_sources` | Primary government, regulator, agency, or official guidance URLs. |
-| `fallback_queries` | Search queries used when a primary source blocks direct fetch or moves. |
-| `scan_dimensions` | Topics the workflow checks, such as leave, pay, safety, privacy, or termination. |
-| `last_validated` | Date the source pack was last human-checked. |
-| `review_boundary` | What the workflow may flag versus what requires HR/legal review. |
-| `audit_fields` | Source URL, fetch status, summary, owner, reviewer, decision, timestamp. |
-
-## Example shape
-
-```json
-{
-  "jurisdiction": "Example Province",
-  "source_family": "Official employment standards, human rights, safety, and privacy guidance",
-  "official_sources": [
-    {
-      "name": "Employment standards guide",
-      "url": "https://example.gov/employment-standards",
-      "why_it_matters": "Primary source for wage, hour, leave, holiday, and termination checks."
-    },
-    {
-      "name": "Human rights commission guidance",
-      "url": "https://example.gov/human-rights",
-      "why_it_matters": "Source family for discrimination, harassment, accommodation, and complaint handling."
-    }
-  ],
-  "fallback_queries": [
-    "site:example.gov employment standards overtime vacation termination",
-    "site:example.gov workplace accommodation harassment human rights"
-  ],
-  "scan_dimensions": [
-    "hours and overtime",
-    "leaves of absence",
-    "termination and notice",
-    "human rights and accommodation",
-    "employee privacy and monitoring"
-  ],
-  "review_boundary": "Issue spotting only. Do not certify compliance. Route policy changes to an accountable HR/legal reviewer."
-}
-```
+The exact field schema, source inventory, fallback configuration, scanning logic, and production thresholds are intentionally not published.
 
 ## Primary source logic
 
-Prefer sources in this order:
-
-1. official government, regulator, agency, or commission source
-2. official guidance, code, rule, regulation, or enforcement page
-3. cached canonical URL or sitemap/RSS/API entry
-4. fallback search query scoped to official domains
-5. reputable secondary source only for discovery, not final authority
-
-Secondary sources can help discover a change, but the workflow should still try to tie the issue back to an official source or route it for human review.
+Prefer authoritative primary sources. Secondary material may assist discovery, but it should not silently become the final authority. When a controlling source cannot be verified, the workflow should expose that limitation and route the issue for human review.
 
 ## Fallback logic
 
 Fallbacks are not a loophole. They are a reliability pattern.
 
-Use fallback queries when:
-
-- the official page blocks automated fetches
-- the page moved
-- the source is split across multiple official pages
-- the workflow needs to rediscover the current canonical URL
-
-The output should say when a source is fallback-covered instead of directly fetched.
+Fallbacks should preserve provenance and disclose when a source was discovered indirectly. Exact discovery queries and recovery logic remain private implementation details.
 
 ## What the workflow may do
 
@@ -114,17 +61,9 @@ Human review is required before:
 - changing payroll, benefits, leave, immigration, safety, discipline, or termination practices
 - representing that the company is compliant
 
-## Audit trail should capture
+## Audit principle
 
-- source pack name and jurisdiction
-- official URL or fallback query used
-- fetch status and timestamp
-- summary generated
-- affected policy/process area
-- recommended next action
-- accountable owner
-- human reviewer
-- decision and timestamp
+The review record should preserve source provenance, scope, uncertainty, ownership, human decisions, and timestamps. The private implementation defines the complete audit schema.
 
 ## Practical design rule
 
