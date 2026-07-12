@@ -137,8 +137,6 @@ Pause for qualified human review before:
 
 ## Demonstration boundary
 
-A safe demo can use synthetic facts and public-source-style placeholders:
-
 A safe demonstration may show a fictional source signal becoming a reviewable case, followed by a human disposition and linked implementation evidence. It should not expose the production state model, orchestration, source configuration, prompts, or private data schema.
 
 Do not demo this pattern with real employee PII, private company configurations, confidential policy text, or legal conclusions presented as certification.
