@@ -17,21 +17,14 @@ Handbook and policy workflows should preserve three separate layers: applicable 
 ## What this is
 A small public repo for operator-grade HR workflow patterns built around OpenClaw.
 
-## Professional case study
+## Evidence labels
 
-This repository documents selected public artifacts from a broader HR applied-AI project built by an HR practitioner.
+Public artifacts use these labels so design work is not confused with production capability:
 
-The work demonstrates how I:
-
-- translate real HR operating problems into bounded AI workflows
-- design human approval, citation, privacy, and auditability controls
-- separate legal information, company policy, and operating practice
-- turn early concepts into reusable patterns, runbooks, and demonstrations
-- define where automation must stop and qualified human judgment must begin
-
-Only non-sensitive patterns and synthetic examples belong here. Product internals, private data, proprietary implementation details, and commercial research are intentionally excluded.
-
-The clearest end-to-end example is the [Compliance Command Center](use-cases/compliance-command-center.md).
+- **Current MVP** — part of HRMC's compliance-first prototype scope
+- **Prototype** — demonstrated in a bounded or synthetic setting, not production-validated
+- **Future research** — a possible later HRMC capability
+- **Adjacent research** — related professional work, not a current HRMC feature
 
 ## Current focus
 - human approval patterns
@@ -55,7 +48,7 @@ The clearest end-to-end example is the [Compliance Command Center](use-cases/com
 - private client work
 - legal advice
 - autonomous decision-making for sensitive HR situations
-- compliance certification or automated handbook redlining
+- compliance certification or autonomous handbook redlining; any prototype draft remains subject to qualified human and legal review
 - a recommendation to use real employee PII in examples or demos
 
 ## Intended audience
@@ -73,7 +66,6 @@ Most AI-in-HR discussion stays too abstract. This repo is meant to document prac
 - Human approval pattern
 - Policy Q&A guardrails
 - Handbook policy-check worked example
-- Multi-lens HR brief pattern for pressure-testing claims, sources, and review boundaries
 - Runbooks for repeatable, human-reviewed OpenClaw-HR workflows
 
 ## Usage boundary
@@ -85,7 +77,6 @@ The first three public-facing use cases now use a law-style explainer format: pl
 
 - [Compliance Command Center](use-cases/compliance-command-center.md)
 - [HRBP Weekly Decision Brief](use-cases/hrbp-weekly-decision-brief.md)
-- [HR Workflow Risk Tiers](use-cases/hr-workflow-risk-tiers.md)
 - [Policy Assistant with Citations](use-cases/policy-assistant-with-citations.md)
 - [AI Workload Governance Review](use-cases/ai-workload-governance-review.md)
 
