@@ -17,6 +17,22 @@ Handbook and policy workflows should preserve three separate layers: applicable 
 ## What this is
 A small public repo for operator-grade HR workflow patterns built around OpenClaw.
 
+## Professional case study
+
+This repository documents selected public artifacts from a broader HR applied-AI project built by an HR practitioner.
+
+The work demonstrates how I:
+
+- translate real HR operating problems into bounded AI workflows
+- design human approval, citation, privacy, and auditability controls
+- separate legal information, company policy, and operating practice
+- turn early concepts into reusable patterns, runbooks, and demonstrations
+- define where automation must stop and qualified human judgment must begin
+
+Only non-sensitive patterns and synthetic examples belong here. Product internals, private data, proprietary implementation details, and commercial research are intentionally excluded.
+
+The clearest end-to-end example is the [Compliance Command Center](use-cases/compliance-command-center.md).
+
 ## Current focus
 - human approval patterns
 - policy Q&A guardrails
