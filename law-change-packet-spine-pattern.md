@@ -1,5 +1,9 @@
 # Law Change Packet Spine Pattern
 
+> **HRMC relationship:** Current compliance-first MVP design pattern.  
+> **Evidence level:** Prototype workflow; production reliability has not been validated.  
+> **Disclosure boundary:** Public material shows the operating principle, not the private data model, complete state machine, or production orchestration.
+
 ## Goal
 
 Turn a detected HR law or policy-source change into one accountable, source-backed work item instead of a set of disconnected dashboards, queues, drafts, and audit notes.
@@ -59,17 +63,7 @@ The visible product should show the operator one clear next action, not five par
 
 ## Canonical case
 
-The canonical case is the durable work item. It should include:
-
-| Field | Purpose |
-|---|---|
-| Case ID | Stable identifier for all linked artifacts. |
-| Source signal | The public source, alert, scan, or intake that triggered review. |
-| Jurisdiction / population | Who may be affected. |
-| Status | Triage, watching, needs packet, legal review, implementation, complete, or archived. |
-| Owner | Accountable HR, legal, compliance, payroll, benefits, safety, or operations owner. |
-| Next action | The single visible operator move. |
-| Linked artifacts | Packet, tracker, draft/redline, approval, communication, and audit records. |
+The canonical case is the durable work item that connects the source signal, affected scope, accountable owner, review decision, implementation work, and evidence. Exact fields and the private data model are intentionally not published.
 
 ## Review packet
 
@@ -87,18 +81,9 @@ A useful packet includes:
 - recommended disposition: archive, watch, build implementation work, or escalate
 - explicit human/legal approval boundary
 
-## Stage model
+## Stage principle
 
-| Stage | Meaning | Allowed next action |
-|---|---|---|
-| Needs triage | A signal exists, but applicability and disposition are not decided. | Archive, watch, or build packet. |
-| Watching | The change is proposed, uncertain, non-final, or not yet actionable. | Monitor source and revisit when status changes. |
-| Needs packet | The signal appears potentially relevant, but the review packet is incomplete. | Build or complete the packet. |
-| Needs legal review | The packet exists and requires interpretation, approval, or risk decision. | Human/legal reviewer decides disposition. |
-| Ready to implement | Review approved action. | Create or open implementation work linked to the case. |
-| In implementation | Policy/process/training/system updates are underway. | Track work and collect proof. |
-| Complete | Work is closed with evidence. | Preserve audit trail. |
-| Archived | No action required or out of scope. | Keep reason and source trail. |
+The private workflow distinguishes early signals, watch items, human/legal review, implementation, and closure with evidence. The exact state machine and transition rules remain private.
 
 ## Artifact nesting rule
 
@@ -114,18 +99,7 @@ redline queue
 audit queue
 ```
 
-Better shape:
-
-```text
-canonical law-change case
-├── source signal
-├── review packet
-├── legal / human decision
-├── implementation tracker item
-├── policy or redline artifact
-├── communication / training artifact
-└── audit proof
-```
+Better shape: one canonical case with related review and implementation artifacts attached to it. The operator should not need to reconcile competing queues for the same change.
 
 The operator should be able to ask: “What is the next action on this law change?” and get one answer.
 
@@ -161,16 +135,11 @@ Pause for qualified human review before:
 - sending employee-facing communications
 - closing a case as complete
 
-## Demo-ready version
+## Demonstration boundary
 
 A safe demo can use synthetic facts and public-source-style placeholders:
 
-1. A generic public-source alert appears.
-2. The system creates one canonical case.
-3. The operator builds a packet from source, jurisdiction, facts, missing facts, and owner.
-4. A human reviewer marks the case as watch, archive, or implement.
-5. Any draft policy language is clearly labeled for review.
-6. Implementation work and audit proof stay linked to the case.
+A safe demonstration may show a fictional source signal becoming a reviewable case, followed by a human disposition and linked implementation evidence. It should not expose the production state model, orchestration, source configuration, prompts, or private data schema.
 
 Do not demo this pattern with real employee PII, private company configurations, confidential policy text, or legal conclusions presented as certification.
 
