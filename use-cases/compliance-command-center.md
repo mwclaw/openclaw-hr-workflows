@@ -1,8 +1,12 @@
 # Compliance Command Center
 
+> **HRMC relationship:** Current compliance-first MVP pattern.  
+> **Evidence level:** Prototype workflow demonstrated with bounded or synthetic inputs; not production-validated.  
+> **Coverage:** U.S.-first. Fictional or non-U.S. jurisdiction examples demonstrate reusable design only, not current geographic coverage.
+
 ## Summary
 
-Monitors HR-relevant legal, regulatory, and policy changes, turns them into plain-English briefs, and routes action items to the right HR owner.
+Designed to monitor HR-relevant legal, regulatory, and policy changes, turn them into plain-English briefs, and route review items to an accountable HR owner.
 
 ## What problem does this solve?
 
@@ -80,21 +84,21 @@ Affected teams may include:
 
 ## What is the real-world impact?
 
-### Faster issue detection
+### Earlier issue visibility
 
-HR sees relevant changes before they become fire drills.
+The workflow aims to surface relevant changes early enough for human review.
 
 ### Clearer ownership
 
 Each item gets routed to a named team or role.
 
-### Better audit trail
+### More structured audit trail
 
 Sources, summaries, decisions, and approvals are captured.
 
 ### Less newsletter chaos
 
-The system turns scattered inputs into a structured queue.
+The design turns scattered inputs into a structured review queue.
 
 ### Practical governance
 

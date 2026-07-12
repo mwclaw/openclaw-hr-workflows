@@ -1,5 +1,8 @@
 # AI Workload Governance Review
 
+> **HRMC relationship:** Adjacent research, not a current HRMC product capability.  
+> **Evidence level:** Proposed workflow pattern; not production-validated.
+
 ## Summary
 
 Helps HR and People leaders inspect whether AI adoption is reducing work friction or quietly turning into higher workload expectations.
@@ -36,11 +39,11 @@ Employees may not fear replacement first. They may fear being expected to do mor
 
 ## What is the real-world impact?
 
-- **Better AI governance** - adoption is judged by work design, not tool usage alone.
-- **Cleaner manager accountability** - leaders must name priority tradeoffs and stop-doing decisions.
-- **Earlier burnout detection** - workload pressure becomes visible before it shows up as attrition.
-- **More honest capacity planning** - saved time is not automatically treated as free capacity.
-- **Safer HR partnership** - HR supports sustainable operating norms without blocking useful AI adoption.
+- **More structured AI governance** — supports review of work design, not tool usage alone.
+- **Clearer manager questions** — prompts leaders to name priority tradeoffs and stop-doing decisions.
+- **Earlier workload-risk visibility** — may surface pressure signals for human interpretation.
+- **More explicit capacity planning** — challenges the assumption that saved time is automatically free capacity.
+- **Bounded HR partnership** — supports sustainable operating discussions without making automated conclusions.
 
 ## What data does it need?
 
@@ -95,7 +98,7 @@ Use these questions with leaders:
 
 ## What would make it demo-ready?
 
-- Use a synthetic Product/Engineering team at Marcus Inc.
+- Use a fully synthetic Product/Engineering team at ExampleCo.
 - Show before/after signals: priorities, review queues, cycle time, meeting load, and employee pulse themes.
 - Generate a one-page review packet.
 - Include manager questions, missing facts, and human-review boundaries.
