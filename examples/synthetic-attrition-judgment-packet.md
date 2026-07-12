@@ -1,5 +1,8 @@
 # Synthetic Demo: Attrition Signal to HR Judgment Packet
 
+> **HRMC relationship:** Future-phase People Intelligence research; not part of the current compliance-first MVP.  
+> **Evidence level:** Worked synthetic example, not a predictive model or production evaluation.
+
 This demo uses fictional teams and synthetic data. It is designed to show a People Analytics workflow pattern without using real employee, manager, candidate, customer, or company data.
 
 The goal is not to let AI decide what is happening on a team.
@@ -125,7 +128,7 @@ Do not recommend discipline, termination, pay action, or employment decisions.
 Treat the output as a starting point for HR review.
 ```
 
-## What this demo proves
+## What this design demonstrates
 
 A useful AI workflow in HR is not the one that produces the most analysis.
 
