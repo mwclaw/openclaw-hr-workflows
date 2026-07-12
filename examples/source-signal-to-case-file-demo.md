@@ -1,5 +1,9 @@
 # Synthetic Demo: Source Signal to HR Case File
 
+> **HRMC relationship:** Current compliance-first MVP pattern.  
+> **Evidence level:** Worked synthetic example; not proof of production accuracy or legal reliability.  
+> **Coverage:** “Example Province” is fictional and does not represent current HRMC geographic coverage.
+
 This demo uses fictional facts and generic public-source placeholders. It is designed to show the workflow pattern without using real employee data, private company configuration, or legal conclusions.
 
 ## Scenario
@@ -50,21 +54,11 @@ The workflow compares the source signal against the employer footprint.
 }
 ```
 
-## Step 4 — Handbook / policy redline prompt
+## Step 4 — Handbook / policy review instruction
 
 The workflow prepares a review prompt, not final policy language.
 
-```text
-Review the current handbook leave section against the official source signal.
-
-Separate:
-1. language that appears consistent,
-2. language that may be incomplete,
-3. language that requires legal review,
-4. operational changes outside the handbook.
-
-Do not certify compliance. Draft only review language for an accountable HR/legal owner.
-```
+The implementation uses a bounded review instruction that separates supported observations, missing information, legal-review questions, and operational follow-up. The full instruction and production configuration are intentionally not published.
 
 ## Step 5 — Case file packet
 
@@ -119,7 +113,7 @@ Before action, the workflow should capture:
 - final approved action
 - timestamp
 
-## What this demo proves
+## What this design demonstrates
 
 This pattern shows how to connect a source signal to practical HR work without converting the system into an autonomous legal decision-maker.
 

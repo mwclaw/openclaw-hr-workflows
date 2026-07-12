@@ -1,7 +1,10 @@
 # HRBP Weekly Decision Brief
 
+> **HRMC relationship:** Adjacent research related to manager-support workflows, not the current compliance-first MVP.  
+> **Evidence level:** Proposed workflow pattern; not production-validated.
+
 ### Summary
-Creates a weekly executive-style brief for HRBPs that highlights people risks, upcoming decisions, manager follow-ups, and unresolved issues across their client group.
+Designed to create a weekly executive-style brief for HRBPs that highlights people risks, upcoming decisions, manager follow-ups, and unresolved issues across their client group.
 
 ### What problem does this solve?
 HRBPs sit between executives, managers, employees, People programs, and messy operating reality. Their problem is rarely lack of information. It is fragmentation.
@@ -25,11 +28,11 @@ Signals live in 1:1 notes, engagement comments, attrition data, performance cycl
 - Employees indirectly affected by better follow-through and decision quality
 
 ### What is the real-world impact?
-- **Better judgment under load** — HRBPs see the important signals in one place.
-- **Less dropped follow-up** — open loops become visible.
-- **Stronger manager coaching** — the brief turns vague concerns into concrete prompts.
-- **Cleaner executive prep** — HRBPs walk into leadership meetings with a point of view.
-- **Better boundaries** — the workflow distinguishes HR-owned work from manager-owned work.
+- **More structured judgment under load** — aims to put important signals in one place.
+- **More visible follow-up** — makes open loops easier to review.
+- **Manager-coaching support** — turns vague concerns into questions for human judgment.
+- **Executive-prep support** — organizes inputs before leadership meetings.
+- **Clearer boundaries** — distinguishes HR-owned work from manager-owned work.
 
 ### What data does it need?
 - HRBP notes / action logs
