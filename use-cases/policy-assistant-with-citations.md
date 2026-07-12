@@ -1,7 +1,10 @@
 # Policy Assistant with Citations
 
+> **HRMC relationship:** Related prototype concept for the AI Service Desk; outside the current compliance-first MVP.  
+> **Evidence level:** Proposed workflow pattern; not production-validated.
+
 ### Summary
-Answers employee and manager policy questions using approved company documents, shows citations, flags uncertainty, and escalates sensitive cases instead of guessing.
+Designed to answer employee and manager policy questions using approved company documents, show citations, flag uncertainty, and escalate sensitive cases instead of guessing.
 
 ### What problem does this solve?
 Employees and managers ask policy questions constantly. HR spends time answering repeat questions, correcting misunderstandings, and translating policy language into practical next steps.
@@ -26,11 +29,11 @@ Generic AI is dangerous here because a confident wrong answer can create legal, 
 - Legal/compliance reviewers for escalated questions
 
 ### What is the real-world impact?
-- **Faster answers** — employees get basic guidance without waiting on HR.
-- **Better consistency** — answers come from approved source material.
-- **Reduced HR volume** — repeat questions become self-serve.
-- **Safer AI adoption** — citations, refusals, and escalation rules prevent false certainty.
-- **Policy improvement loop** — repeated confusing questions reveal where policies need rewriting.
+- **Potentially faster answers** — basic questions may be answered from approved material.
+- **Consistency support** — responses are grounded in approved source material.
+- **Potentially lower repetitive volume** — some routine questions may become self-serve.
+- **Reduced false-certainty risk** — citations, refusals, and escalation rules make limitations more visible.
+- **Policy-improvement signals** — repeated confusing questions may reveal where policies need rewriting.
 
 ### What data does it need?
 - Approved employee handbook
