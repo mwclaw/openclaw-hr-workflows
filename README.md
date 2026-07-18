@@ -33,6 +33,12 @@ Only non-sensitive patterns and synthetic examples belong here. Product internal
 
 The clearest current-MVP example is the [Compliance Command Center](use-cases/compliance-command-center.md).
 
+### See the workflow in two minutes
+
+Start with the [Accountable Compliance Workflow Evidence Packet](examples/accountable-compliance-workflow-evidence.md). It connects the public architecture, a worked synthetic case, a refusal test, human approval points, and the audit receipt into one inspection path.
+
+The packet is intentionally evidence of workflow design and bounded prototype behavior—not a claim of production accuracy, legal reliability, or autonomous decision-making.
+
 ## Evidence labels
 
 Public artifacts use these labels so design work is not confused with production capability:
