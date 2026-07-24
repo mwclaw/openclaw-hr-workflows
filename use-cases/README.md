@@ -17,5 +17,6 @@ The point is to avoid AI-demo fog. Each use case should make the business proble
 
 - [Compliance Command Center](compliance-command-center.md)
 - [HRBP Weekly Decision Brief](hrbp-weekly-decision-brief.md)
+- [HR Workflow Risk Tiers](hr-workflow-risk-tiers.md)
 - [Policy Assistant with Citations](policy-assistant-with-citations.md)
 - [AI Workload Governance Review](ai-workload-governance-review.md)
