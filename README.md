@@ -88,6 +88,9 @@ Most AI-in-HR discussion stays too abstract. This repo is meant to document prac
 - Human approval pattern
 - Policy Q&A guardrails
 - Handbook policy-check worked example
+- HR writing quality gate for source-backed, risk-aware review
+- Multi-lens HR brief pattern for pressure-testing claims, sources, and review boundaries
+- HR workflow risk tiers for proportional controls and human-review boundaries
 - Runbooks for repeatable, human-reviewed OpenClaw-HR workflows
 
 ## Usage boundary
@@ -99,6 +102,7 @@ Public-facing use cases use a law-style explainer format: plain-English problem,
 
 - [Compliance Command Center](use-cases/compliance-command-center.md)
 - [HRBP Weekly Decision Brief](use-cases/hrbp-weekly-decision-brief.md)
+- [HR Workflow Risk Tiers](use-cases/hr-workflow-risk-tiers.md)
 - [Policy Assistant with Citations](use-cases/policy-assistant-with-citations.md)
 - [AI Workload Governance Review](use-cases/ai-workload-governance-review.md)
 
