@@ -7,3 +7,4 @@ Runbooks are for workflows that repeat often enough to standardize, but still re
 ## Current runbooks
 
 - [Weekly HR Artifact Graduation](weekly-hr-artifact-graduation.md)
+- [Private HR Workflow Readiness and Recovery](private-hr-workflow-readiness.md)

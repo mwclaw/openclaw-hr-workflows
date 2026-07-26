@@ -92,6 +92,7 @@ Most AI-in-HR discussion stays too abstract. This repo is meant to document prac
 - Multi-lens HR brief pattern for pressure-testing claims, sources, and review boundaries
 - HR workflow risk tiers for proportional controls and human-review boundaries
 - Runbooks for repeatable, human-reviewed OpenClaw-HR workflows
+- Private-workflow readiness and recovery checks for access, request, backup, and publication boundaries
 
 ## Usage boundary
 These materials are best treated as early patterns and design notes. They should not be treated as a substitute for legal review, information security review, privacy review, or production implementation standards.
@@ -109,6 +110,7 @@ Public-facing use cases use a law-style explainer format: plain-English problem,
 ## Runbooks
 
 - [Weekly HR Artifact Graduation](runbooks/weekly-hr-artifact-graduation.md)
+- [Private HR Workflow Readiness and Recovery](runbooks/private-hr-workflow-readiness.md)
 
 ## Reusable use-case page structure
 
