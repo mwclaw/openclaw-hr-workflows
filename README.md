@@ -63,6 +63,7 @@ Public artifacts use these labels so design work is not confused with production
 - privacy-aware workflow design
 - AI workload governance
 - human-judgment learning loops without silent automation
+- evaluated retrieval with visible failure reporting
 
 ## Design principles
 - auditable
@@ -99,6 +100,8 @@ Most AI-in-HR discussion stays too abstract. This repo is meant to document prac
 - HR workflow risk tiers for proportional controls and human-review boundaries
 - Runbooks for repeatable, human-reviewed OpenClaw-HR workflows
 - Private-workflow readiness and recovery checks for access, request, backup, and publication boundaries
+- HRBP brief worker → independent verifier → human review contract
+- 25-question synthetic HRBP retrieval benchmark with reproducible baseline metrics and documented failures
 
 ## Usage boundary
 These materials are best treated as early patterns and design notes. They should not be treated as a substitute for legal review, information security review, privacy review, or production implementation standards.
