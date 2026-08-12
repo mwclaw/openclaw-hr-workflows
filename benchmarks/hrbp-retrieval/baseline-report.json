@@ -1,0 +1,816 @@
+{
+  "benchmark_version": "2026-08-12",
+  "method": "dependency-free BM25-style lexical retrieval",
+  "question_count": 25,
+  "answerable_question_count": 24,
+  "metrics": {
+    "hit_at_1": 0.7917,
+    "hit_at_5": 1.0,
+    "mrr": 0.8958
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "query": "Which days does the written hybrid policy require onsite?",
+      "expected": [
+        "POL-FLEX-2026-P1"
+      ],
+      "category": "exact_policy",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "POL-FLEX-2026-P1",
+          "score": 5.867347
+        },
+        {
+          "id": "POL-LEAVE-OLD-P1",
+          "score": 4.440846
+        },
+        {
+          "id": "POL-ER-P1",
+          "score": 3.582788
+        },
+        {
+          "id": "NOTE-ADA-P1",
+          "score": 2.07146
+        },
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 1.540787
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "query": "What is Product's customary collaboration-day practice, and is it policy?",
+      "expected": [
+        "PRAC-FLEX-P1"
+      ],
+      "category": "policy_practice_separation",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "PRAC-FLEX-P1",
+          "score": 8.175614
+        },
+        {
+          "id": "PRAC-ORG-P1",
+          "score": 4.358745
+        },
+        {
+          "id": "HC-PRAC-P1",
+          "score": 2.541999
+        },
+        {
+          "id": "POL-ER-P1",
+          "score": 2.486407
+        },
+        {
+          "id": "TAL-NOTE-P1",
+          "score": 2.107734
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "query": "Who can approve a temporary hybrid exception?",
+      "expected": [
+        "POL-FLEX-2026-P1"
+      ],
+      "category": "exact_policy",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "POL-FLEX-2026-P1",
+          "score": 10.892854
+        },
+        {
+          "id": "ENG-P1",
+          "score": 0.0
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 0.0
+        },
+        {
+          "id": "HC-PLAN-P1",
+          "score": 0.0
+        },
+        {
+          "id": "HC-PRAC-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "query": "What should the manager do after Jordan connects a schedule change to health?",
+      "expected": [
+        "GUIDE-ACCOM-P1",
+        "NOTE-ADA-P1"
+      ],
+      "category": "multi_document",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "NOTE-ADA-P1",
+          "score": 9.349125
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 4.541057
+        },
+        {
+          "id": "POL-LEAVE-NEW-P1",
+          "score": 3.834801
+        },
+        {
+          "id": "POL-LEAVE-OLD-P1",
+          "score": 3.062426
+        },
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 2.970218
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "query": "What facts are missing from Jordan's request?",
+      "expected": [
+        "NOTE-ADA-P1"
+      ],
+      "category": "missing_facts",
+      "rank": 2,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 3.791631
+        },
+        {
+          "id": "NOTE-ADA-P1",
+          "score": 2.568659
+        },
+        {
+          "id": "TAL-NOTE-P1",
+          "score": 2.107734
+        },
+        {
+          "id": "POL-ER-P1",
+          "score": 1.938044
+        },
+        {
+          "id": "ENG-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "query": "When is the Atlas and Beacon executive review planned?",
+      "expected": [
+        "PLAN-ORG-P1"
+      ],
+      "category": "exact_case_fact",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "PLAN-ORG-P1",
+          "score": 7.914314
+        },
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 3.469639
+        },
+        {
+          "id": "LOG-ORG-P1",
+          "score": 2.836022
+        },
+        {
+          "id": "PRAC-ORG-P1",
+          "score": 2.552918
+        },
+        {
+          "id": "PERF-P1",
+          "score": 1.706567
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "query": "What approvals are required before an organizational-change announcement?",
+      "expected": [
+        "POL-CHANGE-P1"
+      ],
+      "category": "exact_policy",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 8.822027
+        },
+        {
+          "id": "PERF-P1",
+          "score": 2.184232
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 1.80613
+        },
+        {
+          "id": "PRAC-ORG-P1",
+          "score": 1.685933
+        },
+        {
+          "id": "ENG-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "query": "Who owns the reorganization proposal and which approvals remain unresolved?",
+      "expected": [
+        "LOG-ORG-P1"
+      ],
+      "category": "multi_fact",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "LOG-ORG-P1",
+          "score": 4.983161
+        },
+        {
+          "id": "PLAN-ORG-P1",
+          "score": 4.721374
+        },
+        {
+          "id": "HC-PRAC-P1",
+          "score": 2.61364
+        },
+        {
+          "id": "ENG-P1",
+          "score": 0.0
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "query": "Is an HRBP pre-brief mandatory policy or a local custom?",
+      "expected": [
+        "PRAC-ORG-P1",
+        "POL-CHANGE-P1"
+      ],
+      "category": "policy_practice_separation",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "PRAC-ORG-P1",
+          "score": 12.268931
+        },
+        {
+          "id": "PRAC-FLEX-P1",
+          "score": 3.32652
+        },
+        {
+          "id": "LOG-ORG-P1",
+          "score": 2.224602
+        },
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 0.854316
+        },
+        {
+          "id": "POL-FLEX-2026-P1",
+          "score": 0.813502
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "query": "What evidence must calibration participants use?",
+      "expected": [
+        "TAL-CAL-P1"
+      ],
+      "category": "exact_policy",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "TAL-CAL-P1",
+          "score": 13.20522
+        },
+        {
+          "id": "PERF-P1",
+          "score": 2.184232
+        },
+        {
+          "id": "TAL-NOTE-P1",
+          "score": 2.107734
+        },
+        {
+          "id": "PRIV-P1",
+          "score": 1.35052
+        },
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 1.326871
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "query": "Which calibration note raises a leave-related concern?",
+      "expected": [
+        "TAL-NOTE-P1"
+      ],
+      "category": "sensitive_signal",
+      "rank": 2,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "NOTE-ER-P1",
+          "score": 5.644834
+        },
+        {
+          "id": "TAL-NOTE-P1",
+          "score": 4.960213
+        },
+        {
+          "id": "TAL-CAL-P1",
+          "score": 4.678027
+        },
+        {
+          "id": "NOTE-ADA-P1",
+          "score": 3.872694
+        },
+        {
+          "id": "POL-LEAVE-NEW-P1",
+          "score": 2.630721
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "query": "What is missing before Riley receives formal performance action?",
+      "expected": [
+        "NOTE-PERF-P1",
+        "PERF-P1"
+      ],
+      "category": "multi_document",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "PERF-P1",
+          "score": 7.500138
+        },
+        {
+          "id": "NOTE-PERF-P1",
+          "score": 4.239657
+        },
+        {
+          "id": "LOG-ORG-P1",
+          "score": 2.224602
+        },
+        {
+          "id": "TAL-CAL-P1",
+          "score": 1.838906
+        },
+        {
+          "id": "ENG-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "query": "Who must review performance action before delivery?",
+      "expected": [
+        "PERF-P1"
+      ],
+      "category": "exact_policy",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "PERF-P1",
+          "score": 8.682438
+        },
+        {
+          "id": "LOG-ORG-P1",
+          "score": 3.450425
+        },
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 3.270901
+        },
+        {
+          "id": "TAL-CAL-P1",
+          "score": 3.213934
+        },
+        {
+          "id": "POL-FLEX-2026-P1",
+          "score": 2.325411
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "query": "Which allegations require prompt Employee Relations routing?",
+      "expected": [
+        "POL-ER-P1"
+      ],
+      "category": "exact_policy",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "POL-ER-P1",
+          "score": 15.192495
+        },
+        {
+          "id": "NOTE-ER-P1",
+          "score": 2.185455
+        },
+        {
+          "id": "TAL-NOTE-P1",
+          "score": 1.525609
+        },
+        {
+          "id": "NOTE-ADA-P1",
+          "score": 1.499353
+        },
+        {
+          "id": "ENG-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "query": "What details are absent from the speak-up report?",
+      "expected": [
+        "NOTE-ER-P1"
+      ],
+      "category": "missing_facts",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "NOTE-ER-P1",
+          "score": 4.721374
+        },
+        {
+          "id": "PRIV-P1",
+          "score": 2.660224
+        },
+        {
+          "id": "LOG-ORG-P1",
+          "score": 2.224602
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 2.145301
+        },
+        {
+          "id": "NOTE-ADA-P1",
+          "score": 2.07146
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "query": "What should an intake owner avoid promising to a reporter?",
+      "expected": [
+        "POL-ER-P1"
+      ],
+      "category": "vocabulary_mismatch",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "POL-ER-P1",
+          "score": 10.550491
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 3.105601
+        },
+        {
+          "id": "LOG-ORG-P1",
+          "score": 2.224602
+        },
+        {
+          "id": "NOTE-ADA-P1",
+          "score": 2.158383
+        },
+        {
+          "id": "NOTE-PERF-P1",
+          "score": 2.131973
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "query": "What is the current process for starting a leave request?",
+      "expected": [
+        "POL-LEAVE-NEW-P1"
+      ],
+      "category": "version_conflict",
+      "rank": 2,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 3.791631
+        },
+        {
+          "id": "POL-LEAVE-NEW-P1",
+          "score": 2.630721
+        },
+        {
+          "id": "POL-LEAVE-OLD-P1",
+          "score": 2.395803
+        },
+        {
+          "id": "TAL-CAL-P1",
+          "score": 1.580979
+        },
+        {
+          "id": "TAL-NOTE-P1",
+          "score": 1.525609
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "query": "Which leave document is superseded?",
+      "expected": [
+        "POL-LEAVE-OLD-P1"
+      ],
+      "category": "metadata_version",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "POL-LEAVE-OLD-P1",
+          "score": 5.374582
+        },
+        {
+          "id": "POL-LEAVE-NEW-P1",
+          "score": 2.630721
+        },
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 2.61364
+        },
+        {
+          "id": "TAL-CAL-P1",
+          "score": 1.580979
+        },
+        {
+          "id": "TAL-NOTE-P1",
+          "score": 1.525609
+        }
+      ]
+    },
+    {
+      "id": "Q19",
+      "query": "How many senior engineer openings have approved funding?",
+      "expected": [
+        "HC-PLAN-P1"
+      ],
+      "category": "exact_case_fact",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "HC-PLAN-P1",
+          "score": 10.698003
+        },
+        {
+          "id": "PRIV-P1",
+          "score": 2.145301
+        },
+        {
+          "id": "ENG-P1",
+          "score": 0.0
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 0.0
+        },
+        {
+          "id": "HC-PRAC-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q20",
+      "query": "Can recruiting fully open the fourth role before an approval ID exists?",
+      "expected": [
+        "HC-PLAN-P1",
+        "HC-PRAC-P1"
+      ],
+      "category": "multi_document",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "HC-PRAC-P1",
+          "score": 7.740731
+        },
+        {
+          "id": "HC-PLAN-P1",
+          "score": 7.343488
+        },
+        {
+          "id": "ENG-P1",
+          "score": 0.0
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 0.0
+        },
+        {
+          "id": "LOG-ORG-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q21",
+      "query": "What themes appear in the Product pulse survey?",
+      "expected": [
+        "ENG-P1"
+      ],
+      "category": "exact_case_fact",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "ENG-P1",
+          "score": 12.193697
+        },
+        {
+          "id": "PRAC-FLEX-P1",
+          "score": 2.241688
+        },
+        {
+          "id": "PRAC-ORG-P1",
+          "score": 2.106202
+        },
+        {
+          "id": "PLAN-ORG-P1",
+          "score": 1.525609
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q22",
+      "query": "Can the Product survey support demographic conclusions?",
+      "expected": [
+        "ENG-P1",
+        "PRIV-P1"
+      ],
+      "category": "privacy_boundary",
+      "rank": 1,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "ENG-P1",
+          "score": 10.57135
+        },
+        {
+          "id": "PRAC-FLEX-P1",
+          "score": 2.241688
+        },
+        {
+          "id": "PRIV-P1",
+          "score": 2.145301
+        },
+        {
+          "id": "PRAC-ORG-P1",
+          "score": 2.106202
+        },
+        {
+          "id": "PERF-P1",
+          "score": 1.580979
+        }
+      ]
+    },
+    {
+      "id": "Q23",
+      "query": "What rule protects small demographic groups?",
+      "expected": [
+        "PRIV-P1"
+      ],
+      "category": "vocabulary_mismatch",
+      "rank": 2,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "ENG-P1",
+          "score": 2.145301
+        },
+        {
+          "id": "PRIV-P1",
+          "score": 2.145301
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 0.0
+        },
+        {
+          "id": "HC-PLAN-P1",
+          "score": 0.0
+        },
+        {
+          "id": "HC-PRAC-P1",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Q24",
+      "query": "May the manager ask Jordan for diagnosis details?",
+      "expected": [
+        "GUIDE-ACCOM-P1"
+      ],
+      "category": "vocabulary_mismatch",
+      "rank": 2,
+      "pass_at_5": true,
+      "returned": [
+        {
+          "id": "NOTE-ADA-P1",
+          "score": 6.283267
+        },
+        {
+          "id": "GUIDE-ACCOM-P1",
+          "score": 5.987652
+        },
+        {
+          "id": "POL-CHANGE-P1",
+          "score": 2.185455
+        },
+        {
+          "id": "TAL-CAL-P1",
+          "score": 1.580979
+        },
+        {
+          "id": "HC-PRAC-P1",
+          "score": 1.525609
+        }
+      ]
+    },
+    {
+      "id": "Q25",
+      "query": "What should the HRBP tell employees about the reorganization?",
+      "expected": [],
+      "category": "missing_source_abstention",
+      "rank": null,
+      "pass_at_5": false,
+      "returned": [
+        {
+          "id": "POL-LEAVE-OLD-P1",
+          "score": 3.761153
+        },
+        {
+          "id": "POL-LEAVE-NEW-P1",
+          "score": 3.483093
+        },
+        {
+          "id": "PLAN-ORG-P1",
+          "score": 2.61364
+        },
+        {
+          "id": "LOG-ORG-P1",
+          "score": 2.224602
+        },
+        {
+          "id": "PRAC-ORG-P1",
+          "score": 2.002532
+        }
+      ]
+    }
+  ]
+}
