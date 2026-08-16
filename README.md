@@ -90,6 +90,7 @@ Public artifacts use these labels so design work is not confused with production
 Most AI-in-HR discussion stays too abstract. This repo is meant to document practical workflow patterns that can survive operational reality.
 
 ## Current contents
+- Installable [HR Decision Packet skill](skills/hr-decision-packet/SKILL.md) for evidence-backed, human-owned people decisions
 - HR agent design principles
 - Employee handbook policy-check workflow
 - Human approval pattern
