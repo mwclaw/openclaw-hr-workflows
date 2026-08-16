@@ -13,9 +13,9 @@
 - Compare realistic options and show the affected-party tradeoffs.
 - Test whether this HR packet is actually ready for a human decision.
 
-## Knowledge files
+## Optional knowledge files
 
-Upload these four canonical files:
+The core instructions are self-contained. These canonical files may also be uploaded when the builder supports knowledge-file uploads:
 
 - `templates/decision-packet.md`
 - `references/evals.md`
@@ -26,3 +26,6 @@ Upload these four canonical files:
 
 Leave web search, image generation, data analysis, apps, and actions disabled. This GPT prepares text packets from information the user supplies; it does not retrieve employee data or act in external systems.
 
+## Current sharing boundary
+
+The GPT was created and live-tested on 2026-08-16. The current ChatGPT publish dialog for the creator account offered private visibility only and stated that public GPT sharing was unavailable. The public, portable edition is therefore this source package until ChatGPT exposes an eligible public sharing option.
