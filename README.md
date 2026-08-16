@@ -90,6 +90,7 @@ Public artifacts use these labels so design work is not confused with production
 Most AI-in-HR discussion stays too abstract. This repo is meant to document practical workflow patterns that can survive operational reality.
 
 ## Current contents
+- Cross-platform HR Decision Packet editions for ClawHub, ChatGPT, and Claude
 - Installable [HR Decision Packet skill](skills/hr-decision-packet/SKILL.md) for evidence-backed, human-owned people decisions
 - HR agent design principles
 - Employee handbook policy-check workflow
@@ -121,6 +122,10 @@ Public-facing use cases use a law-style explainer format: plain-English problem,
 
 - [Weekly HR Artifact Graduation](runbooks/weekly-hr-artifact-graduation.md)
 - [Private HR Workflow Readiness and Recovery](runbooks/private-hr-workflow-readiness.md)
+
+## Public skills
+
+- [HR Decision Packet](skills/hr-decision-packet/) — an evidence-backed packet workflow for accountable human review, with adversarial evals and a fully synthetic example. Cross-platform packaging is documented in [PLATFORMS.md](skills/hr-decision-packet/PLATFORMS.md).
 
 ## Reusable use-case page structure
 
