@@ -1,0 +1,54 @@
+name: HR Decision Packet feedback
+description: Report a useful result, confusing behavior, or failed case without sharing sensitive information.
+title: "[HR Decision Packet] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing HR Decision Packet. Use synthetic or de-identified details only. Do not include employee names, company-confidential information, medical details, credentials, or other sensitive data.
+  - type: dropdown
+    id: result
+    attributes:
+      label: What happened?
+      options:
+        - It helped
+        - The output was incomplete or confusing
+        - A safeguard failed or was too weak
+        - A safeguard blocked an appropriate use
+        - Installation or setup failed
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: What synthetic or de-identified use case did you try?
+      placeholder: Describe the decision being prepared and the sources you supplied. Do not include identifying or confidential details.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What did the skill do?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and skill version
+      placeholder: OpenClaw / ChatGPT / Claude; version 1.0.0
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed names, confidential company information, medical details, credentials, and other sensitive data.
+          required: true

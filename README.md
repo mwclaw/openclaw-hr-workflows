@@ -125,7 +125,7 @@ Public-facing use cases use a law-style explainer format: plain-English problem,
 
 ## Public skills
 
-- [HR Decision Packet](skills/hr-decision-packet/) — an evidence-backed packet workflow for accountable human review, with adversarial evals and a fully synthetic example. Cross-platform packaging is documented in [PLATFORMS.md](skills/hr-decision-packet/PLATFORMS.md).
+- [HR Decision Packet](skills/hr-decision-packet/) — an evidence-backed packet workflow for accountable human review, with a two-minute trial prompt, adversarial evals, a fully synthetic example, and a privacy-safe feedback route. Cross-platform packaging is documented in [PLATFORMS.md](skills/hr-decision-packet/PLATFORMS.md).
 
 ## Reusable use-case page structure
 
