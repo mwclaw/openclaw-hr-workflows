@@ -62,7 +62,7 @@ A source pack can define:
 - last validation date
 - escalation rules for HR/legal review
 
-See [Jurisdiction Source Pack Pattern](../jurisdiction-source-pack-pattern.md) for a reusable pattern.
+See [Jurisdiction Source Pack Pattern](../patterns/jurisdiction-source-pack-pattern.md) for a reusable pattern.
 
 ## Who uses it / who is affected?
 
