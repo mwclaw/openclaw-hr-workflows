@@ -90,15 +90,26 @@ Public artifacts use these labels so design work is not confused with production
 Most AI-in-HR discussion stays too abstract. This repo is meant to document practical workflow patterns that can survive operational reality.
 
 ## Current contents
-- Cross-platform HR Decision Packet editions for ClawHub, ChatGPT, and Claude
+
+- [Patterns](patterns/) — reusable workflow designs, controls, and judgment boundaries
+- [Use cases](use-cases/) — plain-English operating cases with human-review limits
+- [Examples](examples/) — synthetic worked artifacts and evidence packets
+- [Runbooks](runbooks/) — repeatable operating checklists
+- [Templates](templates/) — reusable packet and case-file structures
+- [Benchmarks](benchmarks/) — reproducible evaluations and documented failures
+- [Public skills](skills/) — cross-platform HR Decision Packet editions for ClawHub, ChatGPT, and Claude
+- [Thesis](docs/openclaw-in-hr-thesis.md) — the operating argument behind this work
+
+Selected artifacts include:
+
 - Installable [HR Decision Packet skill](skills/hr-decision-packet/SKILL.md) for evidence-backed, human-owned people decisions
-- HR agent design principles
-- Employee handbook policy-check workflow
-- Human approval pattern
-- Policy Q&A guardrails
-- Handbook policy-check worked example
-- HR writing quality gate for source-backed, risk-aware review
-- Multi-lens HR brief pattern for pressure-testing claims, sources, and review boundaries
+- [HR agent design principles](patterns/hr-agent-design-principles.md)
+- [Employee handbook policy-check workflow](patterns/employee-handbook-policy-check-workflow.md)
+- [Human approval pattern](patterns/human-approval-pattern.md)
+- [Policy Q&A guardrails](patterns/policy-q-and-a-guardrails.md)
+- [Handbook policy-check worked example](examples/handbook-policy-check-worked-example.md)
+- [HR writing quality gate](patterns/hr-writing-quality-gate.md) for source-backed, risk-aware review
+- [Multi-lens HR brief pattern](patterns/multi-lens-hr-brief.md) for pressure-testing claims, sources, and review boundaries
 - HR workflow risk tiers for proportional controls and human-review boundaries
 - Runbooks for repeatable, human-reviewed OpenClaw-HR workflows
 - Private-workflow readiness and recovery checks for access, request, backup, and publication boundaries
