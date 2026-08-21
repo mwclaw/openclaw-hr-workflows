@@ -34,12 +34,12 @@ The private implementation may use more detailed controls. The public pattern de
 
 | Evidence | What it demonstrates | Public artifact |
 |---|---|---|
-| Canonical packet spine | One change remains one accountable case instead of fragmenting across queues | [Law Change Packet Spine Pattern](../law-change-packet-spine-pattern.md) |
+| Canonical packet spine | One change remains one accountable case instead of fragmenting across queues | [Law Change Packet Spine Pattern](../patterns/law-change-packet-spine-pattern.md) |
 | Source-to-case example | A fictional source signal becomes a scoped case with missing facts and an owner | [Synthetic Source Signal to HR Case File](source-signal-to-case-file-demo.md) |
-| Source discipline | Jurisdiction, authority, effective-date status, and fallback handling are explicit | [Jurisdiction Source Pack Pattern](../jurisdiction-source-pack-pattern.md) |
-| Human approval boundary | The agent drafts and routes; a named person approves consequential action | [Human Approval Pattern](../human-approval-pattern.md) |
-| Policy interpretation boundary | Law, written policy, and actual practice remain separate | [Policy Q&A Guardrails](../policy-q-and-a-guardrails.md) |
-| Adversarial boundary | Retrieved text is treated as evidence, not as trusted instructions | [Prompt-Injection Guardrails](../prompt-injection-guardrails.md) |
+| Source discipline | Jurisdiction, authority, effective-date status, and fallback handling are explicit | [Jurisdiction Source Pack Pattern](../patterns/jurisdiction-source-pack-pattern.md) |
+| Human approval boundary | The agent drafts and routes; a named person approves consequential action | [Human Approval Pattern](../patterns/human-approval-pattern.md) |
+| Policy interpretation boundary | Law, written policy, and actual practice remain separate | [Policy Q&A Guardrails](../patterns/policy-q-and-a-guardrails.md) |
+| Adversarial boundary | Retrieved text is treated as evidence, not as trusted instructions | [Prompt-Injection Guardrails](../patterns/prompt-injection-guardrails.md) |
 | Publication boundary | Public proof is separated from private data and implementation detail | [Publication Boundary](../PUBLICATION_BOUNDARY.md) |
 
 ## Worked success path
