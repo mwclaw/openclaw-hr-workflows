@@ -2,7 +2,7 @@
 
 Practical workflow patterns for using OpenClaw in HR.
 
-Built by [Mike Winkler](https://mikewinkleradvisory.com/about), an AI in HR expert and HR advisor with 16 years in HR, including 10 as an HRBP. These public materials show workflow design, failure tests, and human-review boundaries; they do not represent production client outcomes.
+Built by [Mike Winkler](https://mikewinkleradvisory.com/about), an HR advisor building auditable AI-assisted HR workflows, with 16 years in HR, including 10 as an HRBP. These public materials show workflow design, failure tests, and human-review boundaries; they do not represent production client outcomes.
 
 - [Printable AI in HR Workflow Review Worksheet](https://mikewinkleradvisory.com/resources/ai-in-hr-workflow-review)
 - [HR Mission Control case study](https://mikewinkleradvisory.com/work/hr-mission-control)
