@@ -4,9 +4,14 @@ Practical workflow patterns for using OpenClaw in HR.
 
 Built by [Mike Winkler](https://mikewinkleradvisory.com/about), an HR advisor building auditable AI-assisted HR workflows, with 16 years in HR, including 10 as an HRBP. These public materials show workflow design, failure tests, and human-review boundaries; they do not represent production client outcomes.
 
-- [Printable AI in HR Workflow Review Worksheet](https://mikewinkleradvisory.com/resources/ai-in-hr-workflow-review)
-- [HR Mission Control case study](https://mikewinkleradvisory.com/work/hr-mission-control)
-- [Mike Winkler Advisory](https://mikewinkleradvisory.com)
+## Start here
+
+1. [Selected Work](docs/selected-work.md) — six concrete projects with evidence labels and direct inspection paths
+2. [Accountable Compliance Workflow Evidence Packet](examples/accountable-compliance-workflow-evidence.md) — inspect sources, a synthetic case, refusal behavior, human approval, and the audit receipt in about two minutes
+3. [HR Decision Packet](skills/hr-decision-packet/) — try the released cross-platform workflow for evidence-backed, human-owned people decisions
+4. [Evaluated HRBP Retrieval Benchmark](benchmarks/hrbp-retrieval/) — inspect a reproducible baseline and its documented failures
+
+[Printable AI in HR Workflow Review Worksheet](https://mikewinkleradvisory.com/resources/ai-in-hr-workflow-review) · [HR Mission Control case study](https://mikewinkleradvisory.com/work/hr-mission-control) · [Mike Winkler Advisory](https://mikewinkleradvisory.com)
 
 ## Important disclaimer
 This repository is informational only.
@@ -37,13 +42,7 @@ The work demonstrates how I:
 
 Only non-sensitive patterns and synthetic examples belong here. Product internals, private data, proprietary implementation details, and commercial research are intentionally excluded.
 
-The clearest current-MVP example is the [Compliance Command Center](use-cases/compliance-command-center.md).
-
-### See the workflow in two minutes
-
-Start with the [Accountable Compliance Workflow Evidence Packet](examples/accountable-compliance-workflow-evidence.md). It connects the public architecture, a worked synthetic case, a refusal test, human approval points, and the audit receipt into one inspection path.
-
-The packet is intentionally evidence of workflow design and bounded prototype behavior—not a claim of production accuracy, legal reliability, or autonomous decision-making.
+The clearest current-MVP example is the [Compliance Command Center](use-cases/compliance-command-center.md). The evidence packet is intentionally evidence of workflow design and bounded prototype behavior—not a claim of production accuracy, legal reliability, or autonomous decision-making.
 
 ## Evidence labels
 
@@ -99,6 +98,7 @@ Most AI-in-HR discussion stays too abstract. This repo is meant to document prac
 - [Benchmarks](benchmarks/) — reproducible evaluations and documented failures
 - [Public skills](skills/) — cross-platform HR Decision Packet editions for ClawHub, ChatGPT, and Claude
 - [Thesis](docs/openclaw-in-hr-thesis.md) — the operating argument behind this work
+- [Selected Work](docs/selected-work.md) — a portfolio-oriented inspection path through the strongest public artifacts
 
 Selected artifacts include:
 
@@ -110,6 +110,8 @@ Selected artifacts include:
 - [Handbook policy-check worked example](examples/handbook-policy-check-worked-example.md)
 - [HR writing quality gate](patterns/hr-writing-quality-gate.md) for source-backed, risk-aware review
 - [Multi-lens HR brief pattern](patterns/multi-lens-hr-brief.md) for pressure-testing claims, sources, and review boundaries
+- [Retrieval before prior-event answers](patterns/retrieval-before-prior-event-answers.md) for evidence-backed recall instead of plausible reconstruction
+- [Agent workflow continuity and recovery](runbooks/agent-workflow-continuity-and-recovery.md) for ownership, memory, queue, restart, and rollback verification
 - HR workflow risk tiers for proportional controls and human-review boundaries
 - Runbooks for repeatable, human-reviewed OpenClaw-HR workflows
 - Private-workflow readiness and recovery checks for access, request, backup, and publication boundaries

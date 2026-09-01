@@ -49,7 +49,7 @@ Before publishing, check:
 
 - [ ] examples are synthetic
 - [ ] no real employee, candidate, manager, customer, or family data
-- [ ] no private local paths such as `/Users/...`
+- [ ] no private local home-directory paths
 - [ ] no private repo names unless intentionally referenced
 - [ ] no private app code copied into docs
 - [ ] no tokens, API keys, webhook URLs, cookies, or secrets
@@ -57,6 +57,21 @@ Before publishing, check:
 - [ ] no screenshots containing private UI/data
 - [ ] legal/compliance outputs are framed as issue spotting and review support
 - [ ] human/legal approval boundary is explicit
+
+## Automated enforcement
+
+The repository's quality workflow runs `python3 scripts/check-publication-boundary.py` on every pull request and push to `main`.
+
+The check fails closed on:
+
+- unapproved top-level paths
+- common private-state, credential, backup, database, and key-file paths
+- oversized artifacts that are difficult to review safely
+- local home-directory paths
+- common secret and access-token formats
+- the explicitly excluded private-application boundary
+
+Automation is a backstop, not authorization to publish. A human reviewer must still assess meaning, context, source rights, employer confidentiality, and whether a collection of individually harmless details could reconstruct a private system.
 
 ## Good public wording
 
