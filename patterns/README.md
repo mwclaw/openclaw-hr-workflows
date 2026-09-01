@@ -16,3 +16,4 @@ Reusable guardrails and operating patterns for practical HR AI workflows.
 - [Policy Q&A Guardrails](policy-q-and-a-guardrails.md)
 - [Privacy Boundary Pattern](privacy-boundary-pattern.md)
 - [Prompt-Injection Guardrails](prompt-injection-guardrails.md)
+- [Retrieval Before Prior-Event Answers](retrieval-before-prior-event-answers.md)
