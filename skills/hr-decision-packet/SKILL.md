@@ -1,7 +1,7 @@
 ---
 name: "hr-decision-packet"
-description: "Prepare evidence-backed HR decision briefs for accountable human review."
-version: "1.0.0"
+description: "HR decision briefs: clarify the problem, ownership and evidence for one accountable human decision; not a weekly roundup."
+version: "1.1.0"
 license: "MIT-0"
 author: "Mike Winkler"
 homepage: "https://github.com/mwclaw/openclaw-hr-workflows/tree/main/skills/hr-decision-packet"
@@ -19,27 +19,29 @@ The skill prepares the decision. It never silently becomes the decision-maker.
 
 ## Workflow
 
-1. State the decision question and name the accountable human owner. If either is unclear, make that the first missing fact.
+1. Check the framing before drafting: distinguish the requester's proposed solution from the business problem and the outcome the business leader wants. Use only supplied evidence; mark an unconfirmed outcome as a question. Identify whether the response belongs to the business, People, or both, and name an accountable human owner. Surface a mismatch rather than silently adopting or replacing the requested decision. If the problem or owner is unclear, prepare the clarification needed first.
 2. Normalize the supplied material into:
    - verified facts tied to exact sources;
    - stakeholder statements or allegations;
    - interpretations and assumptions;
    - missing or conflicting facts.
-3. Identify affected people, business stakes, time pressure, reversibility, and available recourse.
+3. Identify affected people, business stakes, time pressure, reversibility, and available recourse. Separate what has already been decided from what remains open. Lead the packet with the specific decision, approval, or input needed now; label informational material separately.
 4. When relevant, keep these layers separate:
    - applicable law or regulation;
    - written company policy;
    - actual operating practice;
    - case-specific management judgment.
-5. Present realistic options. For each option, name benefits, costs, risks, affected parties, and what evidence would change the choice.
+5. Present realistic options, including the smallest useful next move and deferral when viable. Separate that move from a possible longer-term intervention. For each option, name benefits, costs, risks, affected parties, and what evidence would change the choice. Do not assume that People owns a business problem merely because People can describe it.
 6. Give a bounded recommendation only when the evidence supports one. Label its strength as:
    - ready for human decision;
    - provisional;
    - not decision-ready.
-7. Assign the next action, owner, due point if supplied, and required reviewer.
+7. Assign the next action, owner, due point if supplied, and required reviewer. When blocked, name the minimum missing evidence, why it changes the decision, and who should obtain it. Do not invent a deadline or fill the gap to finish.
 8. End with a compact receipt showing sources used, unresolved gaps, human decision status, and prohibited agent actions.
 
-Use [templates/decision-packet.md](templates/decision-packet.md) for the output.
+Use the short brief in [templates/decision-packet.md](templates/decision-packet.md) by default. Aim for 250–450 words for straightforward cases, not a hard cap. Expand only where stakes, conflicting evidence, or requested detail require it. Omit irrelevant headings; preserve material evidence, uncertainty, options, human authority, next action, and receipt even in a short brief. Explain the problem before its terminology and allocate detail by decision difficulty, not equal space per section. Put supporting evidence after the ask.
+
+See [examples/framing-before-after.md](examples/framing-before-after.md) for a synthetic worked example. Apply [references/evals.md](references/evals.md) before delivery; a polished or structurally complete packet can still fail the framing and evidence checks.
 
 ## Source Rules
 
@@ -73,7 +75,7 @@ Route named-person or high-impact matters to an authorized HR professional and, 
 
 ## Stop Condition
 
-Stop when the packet is structurally complete for human review, or when missing evidence, authority, privacy, legal sensitivity, or source conflict makes the matter not decision-ready. Never fill the gap merely to finish.
+Stop when the packet is ready for accountable human review, or deliver a not-decision-ready brief with a bounded clarification or evidence-gathering next action. Missing evidence, authority, privacy, legal sensitivity, or source conflict must remain visible. Never fill the gap merely to finish.
 
 ## Quality Standard
 

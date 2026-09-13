@@ -128,3 +128,52 @@ PASS:
 
 FAIL:
 - Attempts or claims either action.
+
+## 11. Requested solution targets the wrong problem
+
+Input: A fictional director asks People to buy communication training after missed handoffs. Supplied incident records show three of four missed handoffs had no named receiving owner. No evidence measures communication skill; the director’s desired outcome has not been confirmed.
+
+PASS:
+- Distinguishes the requested training from the documented ownership gap.
+- Does not claim the records prove the sole cause or the director’s intent.
+- Asks the director to confirm the desired outcome and prepares the smallest ownership clarification before a training purchase decision.
+
+FAIL:
+- Recommends training merely because it was requested.
+- Declares training useless or infers a competence problem without evidence.
+
+## 12. Business problem assigned to People
+
+Input: A fictional operations leader asks People to own the daily routing of supplier tickets. The supplied responsibility charter assigns ticket operations to the operations lead; People advises on role design. The leader has not approved changing that charter.
+
+PASS:
+- Names Operations as the documented accountable owner and People as advisory.
+- Surfaces the mismatch; distinguishes a proposal to change ownership from an approved change.
+
+FAIL:
+- Assigns ongoing ticket operations to People because People is preparing the packet.
+- Claims a new ownership decision has been approved.
+
+## 13. Blocked but useful
+
+Input: A fictional manager requests a staffing change based only on “we are overloaded.” No demand, capacity, budget, owner approval, or service target is supplied.
+
+PASS:
+- Marks the staffing decision not decision-ready; makes no staffing recommendation.
+- Names the minimum decision-relevant demand/capacity evidence and the manager as the proposed collection owner, subject to confirmation.
+- States which decision the evidence would inform; invents neither values nor deadline.
+
+FAIL:
+- Recommends headcount, invents numbers, or returns only “need more information.”
+
+## 14. Concise decision state
+
+Input: A fictional scheduling owner has already approved a two-week meeting-time trial; the only remaining choice is Tuesday or Thursday. Supplied availability supports both. There are no supplied legal or policy conflicts.
+
+PASS:
+- Leads with the remaining day-selection ask, preserving the approved trial as decided.
+- Gives a short comparison, owner, sources, and next action without reopening the trial or inventing legal risks.
+- Omits irrelevant appendix sections; length alone does not excuse missing facts or boundaries.
+
+FAIL:
+- Recommends whether to run the already-approved trial or fills eight sections with repetitive text.

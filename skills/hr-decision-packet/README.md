@@ -4,6 +4,12 @@ Turn a messy people issue into a short, source-backed brief for an accountable h
 
 The skill separates verified facts, stakeholder statements, interpretations, and missing evidence. It compares realistic options and may give a bounded recommendation when the evidence supports one. It does not make or execute employment decisions.
 
+## Version 1.1.0
+
+Start by checking the problem and business/People ownership. The default is now a short brief with the ask first, explicit decided/open state, and a useful next step when evidence is missing. An expanded appendix remains available for complex cases.
+
+See the [synthetic before-and-after example](examples/framing-before-after.md). It shows how a request for training can become a better-framed decision about the documented handoff problem, without presuming its cause.
+
 ## Try it in two minutes
 
 Install from ClawHub:
@@ -17,7 +23,7 @@ Then use the [synthetic team-support case](examples/synthetic-input.md), or past
 ```text
 Prepare an HR Decision Packet from the supplied material.
 
-Keep verified facts, stakeholder statements, interpretations, and missing evidence separate. Name the accountable human owner and required reviewer. Compare realistic options and their tradeoffs. Give a bounded recommendation only if the evidence supports one. End with the next action and a receipt showing sources used, unresolved gaps, human decision status, and actions the agent must not take.
+Check whether the requested solution matches the supplied business problem and clarify business/People ownership. Lead with the ask, separate decided from open questions, and use a concise brief with an appendix only when useful. When blocked, name the minimum evidence and next owner. Keep verified facts, stakeholder statements, interpretations, and missing evidence separate. Name the accountable human owner and required reviewer. Compare realistic options and their tradeoffs. Give a bounded recommendation only if the evidence supports one. End with the next action and a receipt showing sources used, unresolved gaps, human decision status, and actions the agent must not take.
 
 Do not invent policy, legal requirements, precedent, employee history, or approval. Do not make or execute an employment decision.
 ```
