@@ -1,5 +1,22 @@
 # HR Decision Packet
 
+## Short brief — default
+
+Use concise paragraphs or bullets. The fields below are a coverage checklist, not mandatory separate headings. Use the expanded appendix only where it helps the reviewer.
+
+- **Ask now:** the decision, approval, or input needed; accountable human owner; required reviewer; timing if supplied; readiness status.
+- **Problem and ownership:** requester’s proposed solution, supported business problem and desired outcome; any framing mismatch; business / People / joint ownership.
+- **Decision state:** already decided, still open, and information only. Say “not supplied” rather than inventing a prior decision.
+- **Evidence and uncertainty:** source-linked verified facts; attributed statements; interpretations; missing or conflicting evidence that matters.
+- **Options and recommendation:** viable alternatives and tradeoffs; bounded recommendation or no recommendation; what would change it. Separate the smallest useful move from a longer-term intervention.
+- **Next action and receipt:** action, owner, reviewer, due point if supplied; sources used, unresolved gaps, human decision status, and prohibited agent actions.
+
+If blocked, explain the minimum evidence or clarification needed and its owner instead of completing an unsupported recommendation. A short brief still preserves every material uncertainty and safeguard.
+
+---
+
+# Expanded Evidence Appendix
+
 ## 1. Decision
 
 - Decision question:
@@ -86,3 +103,5 @@
 - Unresolved gaps:
 - Human decision status: pending | approved | revised | returned | discarded
 - Agent role: prepared packet only
+
+Use the appendix selectively; do not repeat the short brief or fill empty tables just to complete the form.
